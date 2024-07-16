@@ -1,0 +1,81 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Verdana, Geneva, sans-serif;
+}
+
+body, html {
+  height: 100%;
+  font-family: Arial, sans-serif;
+}
+
+.App {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100vh;
+background: url('https://i.pinimg.com/564x/df/9f/d5/df9fd5bffeb62e74c0bad79f130c71af.jpg');
+}
+
+.header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  flex-grow: 1;
+}
+
+.text-lines {
+  margin-bottom: 20px;
+  text-align: center;
+  color: white;
+}
+
+.animated-text {
+  font-size: 24px;
+  margin: 10px 0;
+  animation: fadeIn 2s infinite alternate;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 50;
+  }
+  to {
+    opacity: 100;
+  }
+}
+
+.buttons {
+  display: flex;
+  gap: 20px;
+ 
+
+}
+
+.btn {
+  padding: 10px 20px;
+  font-size: 16px;
+  border: 2px solid #fff;
+  background: rgba(0, 0, 0, 0.5);
+  color: #fff;
+  cursor: pointer;
+  transition: background 0.3s, color 0.3s;
+}
+
+.hover-effect:hover {
+  background: #fff;
+  color: #000;
+}
+
+.footer {
+  background: #000;
+  color: #fff;
+  text-align: center;
+  padding: 20px 0;
+}
+
+.footer p {
+  margin: 10px 0;
+}

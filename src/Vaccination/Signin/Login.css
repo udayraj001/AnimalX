@@ -1,0 +1,95 @@
+/* Add this CSS for the background image */
+
+.bgImg {
+    background: url('https://i.pinimg.com/564x/03/c8/27/03c827281f583a0e33ba8cc0ac4844e9.jpg') no-repeat center center;
+    background-size: cover;
+    position: absolute;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 100%;
+}
+
+.Box {
+    display: flex !important;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    max-width: 500px;
+    width: 100%;
+    margin: auto;
+    position: relative; /* Add this to position the container relative to the background image */
+    z-index: 1; /* Ensure the container is above the background image */
+}
+.register{
+    font-weight: 500;
+    font-size: 50px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    padding-bottom: 20px;
+}
+
+.form {
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    width: 100%;
+    border: 1px solid #dfdfdf;
+    padding: 20px;
+    border-radius: 5px;
+    background: #fff;
+    
+}
+
+input {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-left: 25px;
+    border-radius: 9%;
+    border: 1px solid #dfdfdf;
+}
+
+.field{
+    font-size: 20px;
+    font-weight: 100;
+    
+}
+pre {
+    width: 70%;
+    color: #fff;
+    font-size: larger;
+}
+
+/* button {
+    background: #05b462 !important;
+    padding: 5px;
+    border-radius: 10px;
+    width: 100%;
+} */
+
+p {
+    color: rgb(13, 13, 13);
+}
+
+.texts {
+    margin: 2px;
+    padding: 5px;
+    font-size: medium;
+}
+
+spam {
+    color: rgb(0, 95, 236);
+    cursor: pointer;
+}
+
+.submit{
+    padding: 1rem;
+    border-radius: 1rem;
+    font-size: medium;
+    font-weight: bold;
+    background-color:rgb(78, 209, 78);
+    
+}
